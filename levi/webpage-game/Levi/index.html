@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIAP Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo">Alzheimer</a>
+      <ul class="nav">
+        <li><a href="./post-it.html">Post-it</a></li>
+        <li><a href="./jogo da memoria.html">Jogo da Memória</a></li>
+        <li><a href="./caça palavras.html">Caça Palavras</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="action">
+        <div class="searchBx">
+          <a href="#"><i class="bx bx-search"></i></a>
+          <input type="text" placeholder="Search Games" />
+        </div>
+      </div>
+      <div class="toggleMenu"></div>
+    </header>
+
+    <!--Home Banner-->
+    <div class="banner">
+      <div class="bg">
+        <div class="content">
+          <h2>
+            Jogo Name<br />
+            Sub Name
+          </h2>
+          <p>About...</p>
+          <a href="#" class="btn">Jogue agora</a>
+        </div>
+        <img src="Alzheimer-pana.png" />
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about">
+      <div class="contentBx">
+        <h2>Sobre nós</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+          inventore eum dolorem, alias eaque voluptates porro aut reiciendis
+          odit fuga vel deserunt esse eos, sint repudiandae itaque consequatur
+          obcaecati sit. Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Minima odio nisi asperiores soluta ea hic. Officiis explicabo
+          fuga illum deleniti molestiae voluptas. Laboriosam quidem eveniet
+          ducimus sit, eum sapiente excepturi! Lorem
+        </p>
+        <a href="#">Leia Mais</a>
+      </div>
+      <img src="Alzheimer-amico.png" />
+    </div>
+
+    <!-- Games -->
+    <div class="games">
+      <h2>Jogos mais populares</h2>
+      <ul>
+        <li class="list active">Post-it</li>
+        <li class="list">Jogo da Memória</li>
+        <li class="list">Caça Palavras</li>
+      </ul>
+      <div class="cardBx">
+        <div class="card" data-item="pc">
+          <img src="game 1.jpg" />
+          <div class="content">
+            <h4>Post-it</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <a href="#">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="pc">
+          <img src="game 3.jpg" />
+          <div class="content">
+            <h4>Jogo da Memória</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <a href="#">Play Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-item="pc">
+          <img src="game 2.jpg" />
+          <div class="content">
+            <h4>Caça Palavras</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <a href="#">Play Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* Scroll bar */
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
