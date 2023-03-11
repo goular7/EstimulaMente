@@ -1,9 +1,9 @@
-Plataforma de jogos para pessoas com Alzheimer
+EstimulaMente é uma plataforma de jogos para pessoas com Alzheimer
 
 Este projeto é um site informativo sobre uma plataforma de jogos desenvolvida pelos alunos do curso de Sistema de Informação da FIAP com o objetivo de ajudar pessoas com Alzheimer a manterem a mente ativa e melhorar sua qualidade de vida.
 
 Descrição do projeto
-A plataforma de jogos para pessoas com Alzheimer é composta por uma série de jogos simples e divertidos que foram projetados para estimular a memória, a atenção e a coordenação motora dos jogadores. Os jogos foram criados com base em pesquisas e estudos sobre as necessidades e limitações das pessoas com Alzheimer, visando proporcionar uma experiência de jogo agradável e significativa.
+EstumulaMente é composta por uma série de jogos simples e divertidos que foram projetados para estimular a memória, a atenção e a coordenação motora dos jogadores. Os jogos foram criados com base em pesquisas e estudos sobre as necessidades e limitações das pessoas com Alzheimer, visando proporcionar uma experiência de jogo agradável e significativa.
 
 Os jogos são divididos em diferentes categorias, cada uma com sua própria abordagem e objetivos específicos. As categorias incluem jogos de memória, jogos de quebra-cabeça, jogos de habilidade e jogos de coordenação motora. Além disso, a plataforma também inclui um painel de controle que permite ao usuário personalizar as configurações do jogo de acordo com suas preferências e habilidades.
 
